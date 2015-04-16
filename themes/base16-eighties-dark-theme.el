@@ -101,19 +101,6 @@
    `(mmm-comment-submode-face ((t (:inherit font-lock-comment-face))))
    `(mmm-output-submode-face ((t (:background ,base03))))
 
-
-
-   ;; org-mode
-   `(org-date ((t (:foreground ,base0E))))
-   `(org-done ((t (:foreground ,base0B))))
-   `(org-hide ((t (:foreground ,base01))))
-   `(org-link ((t (:foreground ,base0D))))
-   `(org-todo ((t (:foreground ,base08))))
-
-   ;; show-paren-mode
-   `(show-paren-match ((t (:background ,base0D :foreground ,base01))))
-   `(show-paren-mismatch ((t (:background ,base09 :foreground ,base01))))
-
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,base0E))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,base0D))))
@@ -274,6 +261,7 @@
    `(mm/master-face ((t (:inherit region :foreground nil :background nil))))
    `(mm/mirror-face ((t (:inherit region :foreground nil :background nil))))
 
+   ;; org-mode
    `(org-agenda-structure ((t (:foreground ,base0E))))
    `(org-agenda-date ((t (:foreground ,base0D :underline nil))))
    `(org-agenda-done ((t (:foreground ,base0B))))

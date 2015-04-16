@@ -1,31 +1,31 @@
-;; Base16 Ashes (https://github.com/chriskempson/base16)
-;; Scheme: Jannik Siebert (https://github.com/janniks)
+;; Base16 Hopscotch (https://github.com/chriskempson/base16)
+;; Scheme: Jan T. Sott
 
-;;; base16-ashes-dark-theme.el
+;;; base16-hopscotch-dark-theme.el
 
 ;;; Code:
 
-(deftheme base16-ashes-dark)
+(deftheme base16-hopscotch-dark)
 
-(let ((base00 "#1C2023")
-      (base01 "#393F45")
-      (base02 "#565E65")
-      (base03 "#747C84")
-      (base04 "#ADB3BA")
-      (base05 "#C7CCD1")
-      (base06 "#DFE2E5")
-      (base07 "#F3F4F5")
-      (base08 "#C7AE95")
-      (base09 "#C7C795")
-      (base0A "#AEC795")
-      (base0B "#95C7AE")
-      (base0C "#95AEC7")
-      (base0D "#AE95C7")
-      (base0E "#C795AE")
-      (base0F "#C79595"))
+(let ((base00 "#322931")
+      (base01 "#433b42")
+      (base02 "#5c545b")
+      (base03 "#797379")
+      (base04 "#989498")
+      (base05 "#b9b5b8")
+      (base06 "#d5d3d5")
+      (base07 "#ffffff")
+      (base08 "#dd464c")
+      (base09 "#fd8b19")
+      (base0A "#fdcc59")
+      (base0B "#8fc13e")
+      (base0C "#149b93")
+      (base0D "#1290bf")
+      (base0E "#c85e7c")
+      (base0F "#b33508"))
 
   (custom-theme-set-faces
-   'base16-ashes-dark
+   'base16-hopscotch-dark
 
    ;; Built-in stuff (Emacs 23)
    `(border ((t (:background ,base03))))
@@ -442,7 +442,7 @@
 
 
   (custom-theme-set-variables
-   'base16-ashes-dark
+   'base16-hopscotch-dark
 
    `(ansi-color-names-vector
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
@@ -451,6 +451,6 @@
      ;; black, base08, base0B, base0A, base0D, magenta, cyan, white
      [unspecified ,base00 ,base08 ,base0B ,base0A ,base0D ,base0E ,base0D ,base05])))
 
-(provide-theme 'base16-ashes-dark)
+(provide-theme 'base16-hopscotch-dark)
 
-;;; base16-ashes-dark-theme.el ends here
+;;; base16-hopscotch-dark-theme.el ends here
