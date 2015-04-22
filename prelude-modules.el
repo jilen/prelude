@@ -29,7 +29,6 @@
 ;; (require 'prelude-python)
 ;; (require 'prelude-ruby)
 (require 'prelude-scala)
-(require 'prelude-scala-sbt)
 (require 'prelude-scheme)
 (require 'prelude-shell)
 ;; (require 'prelude-scss)
